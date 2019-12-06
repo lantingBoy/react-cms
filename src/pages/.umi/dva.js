@@ -26,6 +26,7 @@ app.model({ namespace: 'global', ...(require('/Users/test/Documents/workspace/bl
 app.model({ namespace: 'link', ...(require('/Users/test/Documents/workspace/blog/blog-react-admin/src/models/link.js').default) });
 app.model({ namespace: 'list', ...(require('/Users/test/Documents/workspace/blog/blog-react-admin/src/models/list.js').default) });
 app.model({ namespace: 'login', ...(require('/Users/test/Documents/workspace/blog/blog-react-admin/src/models/login.js').default) });
+app.model({ namespace: 'login1', ...(require('/Users/test/Documents/workspace/blog/blog-react-admin/src/models/login1.js').default) });
 app.model({ namespace: 'message', ...(require('/Users/test/Documents/workspace/blog/blog-react-admin/src/models/message.js').default) });
 app.model({ namespace: 'otherUser', ...(require('/Users/test/Documents/workspace/blog/blog-react-admin/src/models/otherUser.js').default) });
 app.model({ namespace: 'project', ...(require('/Users/test/Documents/workspace/blog/blog-react-admin/src/models/project.js').default) });

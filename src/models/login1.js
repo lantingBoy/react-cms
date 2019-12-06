@@ -7,7 +7,7 @@ import { getPageQuery } from '@/utils/utils';
 import { reloadAuthorized } from '@/utils/Authorized';
 
 export default {
-  namespace: 'login',
+  namespace: 'login1',
 
   state: {
     status: undefined,
@@ -15,8 +15,7 @@ export default {
 
   effects: {
     *loginAdmin({ payload }, { call, put }) {
-      const response = yield call(queryCurrent, payload);
-      console.log(response);
+      const response = yield call(loginAdmin, payload);
       if (!response) {
         return;
       }
